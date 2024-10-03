@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     MAX_ENERGY_LEVEL: int = 3
     USE_RANDOM_COLOR: bool = True
     OWN_COLOR: str = "#FFFFFF"
-    NIGHT_SLEEP: bool = True
+    NIGHT_SLEEP: bool = False
     NIGHT_SLEEP_START_TIME: list[int] = [0, 2]
     NIGHT_SLEEP_END_TIME: list[int] = [5, 7]
     REF_ID: str = 'f1197825376'
